@@ -298,7 +298,7 @@ void World3D_Tri3D_process(World3D* m,Tri3D* t,Vec3D camera,Vec2 output){
 		}			
 	}
 }
-void World3D_update(World3D* m,Vec3D p,Vec2 output){
+void World3D_Update(World3D* m,Vec3D p,Vec2 output){
 	Vector_Clear(&m->trisBuff);
 	Vector_Clear(&m->trisOut);
 
